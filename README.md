@@ -1,6 +1,6 @@
 # Your Daily Planner
 
-https://lovable.dev/projects/7fc30e79-c7a0-4238-96c9-dc92b8a9e4b4
+https://repo-glow-station.lovable.app
 
 This project was built with [Lovable](https://lovable.dev).
 
