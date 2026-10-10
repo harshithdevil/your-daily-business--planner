@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- GitHub data is fetched only in server functions (src/lib/github.functions.ts) via the connector gateway — keeps connector keys off the browser.
