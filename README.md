@@ -6,7 +6,7 @@ This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/17a58fca-a1a4-49bf-9e14-7c60ee2b91d3).
+Continue developing this project in the [Lovable editor](https://repo-glow-station.lovable.app/).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
 - **Stay in sync**: every change made in Lovable is committed straight to this repository.
