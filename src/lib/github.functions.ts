@@ -54,7 +54,6 @@ export type SearchItem = {
   number: number;
   repository_url: string;
   updated_at: string;
-  pull_request?: unknown;
 };
 
 export type GhEvent = {

@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
     <main className="mx-auto max-w-2xl px-6 py-24">
       <p className="label">connection error</p>
       <h1 className="mt-3 font-display text-3xl">Couldn't reach GitHub</h1>
-      <p className="mt-3 break-words text-sm text-muted-foreground">{error.message}</p>
+      <p className="mt-3 break-words text-sm text-muted-foreground">{error instanceof Error ? error.message : String(error)}</p>
     </main>
   ),
 });
