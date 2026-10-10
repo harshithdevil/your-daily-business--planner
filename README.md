@@ -1,6 +1,6 @@
 # Your Daily Planner
 
-https://repo-glow-station.lovable.app
+https://prosper-biz-suite.lovable.app
 
 This project was built with [Lovable](https://lovable.dev).
 
