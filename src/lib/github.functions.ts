@@ -3,8 +3,8 @@ import { createServerFn } from "@tanstack/react-start";
 const GATEWAY_URL = "https://connector-gateway.lovable.dev/github";
 
 async function gh<T>(path: string): Promise<T> {
-  const lovableKey = process.env.LOVABLE_API_KEY;
-  const ghKey = process.env.GITHUB_API_KEY;
+  const lovableKey = process.env["LOVABLE_API_KEY"];
+  const ghKey = process.env["GITHUB_API_KEY"];
   if (!lovableKey) throw new Error("LOVABLE_API_KEY is not configured");
   if (!ghKey) throw new Error("GITHUB_API_KEY is not configured");
   const res = await fetch(`${GATEWAY_URL}/${path}`, {
